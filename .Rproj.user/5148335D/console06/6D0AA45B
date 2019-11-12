@@ -1,0 +1,306 @@
+[0m[0KMicrosoft Windows [Versión 10.0.18362.418][0K[?25l
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.[0K
+[0K
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hg[0Ki[0Kt[0K[61G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K]0;  - git  status[?25l
+[0K[?25hOn branch master[0K[?25l
+[0K
+No commits yet[0K
+[0K
+Changes to be committed:[0K
+  (use "git rm --cached <file>..." to unstage)[0K
+[0K
+        [0;32mnew file:   .Rproj.user/5148335D/console06/6D0AA45B[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/console06/INDEX001[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/prop/94604131[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/prop/98C46BF[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/prop/DE8781A9[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/prop/INDEX[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/17417019[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/17417019-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/1967588D[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/1967588D-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/84FEB66C[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/84FEB66C-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/BDA92CD7[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/BDA92CD7-contents[0m[0K[9G[?25h[?25l
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/D1DBC2F4[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/D1DBC2F4-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/DC03AA61[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/DC03AA61-contents[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/s-913D380E/lock_file[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000a.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000b.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000b.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000c.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000d.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000d.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000e.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000f.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000f.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/000010.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/000011.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/000011.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/000012.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c5f6ibvuxgimg/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c5f6ibvuxgimg/000003.error[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c7s42sk63w3iw/000002.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c7s42sk63w3iw/000002.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000003.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000003.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000004.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000005.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000005.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000006.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000007.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000007.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000008.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000009.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000009.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/00000a.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cec2nuqk8coan/00000a.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/chag4u4k4k06z/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/chunks.json[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/coy38cjq7f12q/000004.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/csetup_chunk/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/00000f.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000010.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000010.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000011.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000012.metadata[0m[0K[?25h[?25l
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000012.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000013.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000014.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000014.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000015.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000016.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000016.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000017.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/czr3nxi4650et/000002.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/czr3nxi4650et/000002.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/5148335D913D380E/chunks.json[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/00000a.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/00000b.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/00000b.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/00000c.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/00000d.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/00000d.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/00000e.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/00000f.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/00000f.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/000010.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/000011.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/000011.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c1zg8eg0fp1bn/000012.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c5f6ibvuxgimg/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c5f6ibvuxgimg/000003.error[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c7s42sk63w3iw/000002.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c7s42sk63w3iw/000002.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000003.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000003.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000004.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000005.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000005.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000006.csv[0m[0K[9G[?25h[?25l
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000007.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000007.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000008.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000009.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/000009.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/c9ge285c7ihz1/00000a.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cec2nuqk8coan/00000a.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/chag4u4k4k06z/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/chunks.json[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/coy38cjq7f12q/000004.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/csetup_chunk/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/00000f.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000010.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000010.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000011.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000012.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000012.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000013.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000014.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000014.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000015.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000016.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000016.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/cugdscab7903t/000017.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/czr3nxi4650et/000002.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/F7F37F68-clase_6/1/s/czr3nxi4650et/000002.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/paths[0m[0K
+        [0;32mnew file:   index.Rmd[0m[0K
+        [0;32mnew file:   index.html[0m[0K
+        [0;32mnew file:   saiku-export.csv[0m[0K
+        [0;32mnew file:   script_6_.R[0m[0K
+[0K
+Changes not staged for commit:[0K
+  (use "git add/rm <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/5148335D/console06/6D0AA45B[0m[0K
+        [0;31mmodified:   .Rproj.user/5148335D/console06/INDEX001[0m[0K
+        [0;31mmodified:   .Rproj.user/5148335D/sources/prop/94604131[0m[0K
+        [0;31mmodified:   .Rproj.user/5148335D/sources/prop/DE8781A9[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/17417019[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/17417019-contents[0m[0K[9G[?25h]0; [?25l
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/1967588D[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/1967588D-contents[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/84FEB66C[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/84FEB66C-contents[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/BDA92CD7[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/BDA92CD7-contents[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/D1DBC2F4[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/D1DBC2F4-contents[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/DC03AA61[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/DC03AA61-contents[0m[0K
+        [0;31mdeleted:    .Rproj.user/5148335D/sources/s-913D380E/lock_file[0m[0K
+        [0;31mmodified:   .Rproj.user/shared/notebooks/paths[0m[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.gitignore[0m[0K
+        [0;31mpresentacion_6.Rproj[0m[0K
+[0K
+[0K
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hm[0Kk[0Kl[0Ki[0Kn[0Kg[0K[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklin[0K[?25hk[0K[64G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "[0K[?25hi[0Kn[0Kd[0Ke[0Kx[0Kt[0K[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index[0K[?25h.[0Kh[0Kt[0Km[0Kl[0K"[0K[77G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.html" "[0K[?25hi[0Kn[0Kd[0Ke[0Kx[0K.[0Kn[0Kb[0K.[0Kh[0Kt[0Km[0Kl[0K"[0K]0;  - mklink  "index.html" "index.nb.html"[?25l
+[0K[?25h]0; No se puede crear un archivo que ya existe.[0K[?25l
+[0K
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hmklink "index.html" "index.nb.html"[0K[?25l
+[0K[?25hNo se puede crear un archivo que ya existe.[0K[?25l
+[0K
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hmklink "index.html" "index.nb.html"[0K[91G[90G[89G[88G[87G[86G[85G[84G[83G[82G[81G[80G[79G[78G[77G[75G[74G[75G[76G[77G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.html""index.nb.html"[0K[76G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.html"index.nb.html"[0K[75G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.htm"index.nb.html"[0K[74G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.ht"index.nb.html"[0K[73G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.h"index.nb.html"[0K[72G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index."index.nb.html"[0K[71G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index"index.nb.html"[0K[70G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "inde"index.nb.html"[0K[69G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "ind"index.nb.html"[0K[68G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "in"index.nb.html"[0K[67G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "i"index.nb.html"[0K[66G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink ""index.nb.html"[0K[65G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.nb.html"[0K[64G[?25h[65G[66G[67G[68G[69G[70G[71G[72G[73G[74G[75G[76G[77G[78G[79G[80G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.nb.html" "[0K[?25hi[0Kn[0Kd[0Ke[0Kx[0K_[0K[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.nb.html" "index[0K[?25h.[0Kn[0Kb[0K.[0Kh[0Kt[0Km[0Kl[0K"[0K[?25l
+Carece de privilegios suficientes para realizar esta operación.[0K
+[0K
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hc[0Kh[0Km[0Ko[0Kd[0K[63G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>chmod -[0K[?25hR[0K[66G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>chmod -R 8[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>chmod -R[0K[66G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>chmod -R 6[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>chmod -R[0K[66G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>chmod -R 7[0K[?25h7[0K7[0K[?25l
+[0K[?25h"chmod" no se reconoce como un comando interno o externo,[0K[?25l
+programa o archivo por lotes ejecutable.[0K
+[0K
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hchmod -R 777[0K[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.nb.html" "index.nb.html"[0K[?25h[?25l
+Carece de privilegios suficientes para realizar esta operación.[0K
+[0K
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hg[0Ki[0Kt[0K[61G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git a[0K[?25hd[0Kd[0K[65G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git add .[0K[?25h]0;  - git  add .[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/5148335D/sources/prop/94604131.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/5148335D/sources/prop/DE8781A9.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/shared/notebooks/paths.[0K[?25l
+The file will have its original line endings in your working directory[0K
+[0K[?25h]0; [?25l
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hgit add .[0K[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.nb.html" "index.nb.html"[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>chmod -R 777[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.nb.html" "index.nb.html"[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>mklink "index.html" "index.nb.html"[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git status[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git statu[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git stat[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git sta[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git st[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git s[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git[0K[61G[?25h[60G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>gi[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>g[0K[?25hi[0Kt[0K[61G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git r[0K[?25he[0Ks[0Ke[0Kt[0K[67G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git reset -[0K[?25h-[0K[70G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git reset -- p[0K[?25hr[0Ke[0Ks[0Ke[0Kn[0Kt[0Ka[0Kc[0Ki[0Ko[0Kn[0K_[0K6[0K.[0KR[0Kp[0Kr[0Ko[0Kj[0K]0;  - git  reset -- presentacion_6.Rproj[?25l
+[0K[?25hUnstaged changes after reset:[0K[?25l
+M       .Rproj.user/5148335D/console06/6D0AA45B[0K
+[0K[?25h]0; [?25l
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hg[0Ki[0Kt[0K[61G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25h]0;  - git  statusOn branch master[0K[?25l
+[0K
+No commits yet[0K
+[0K
+Changes to be committed:[0K
+  (use "git rm --cached <file>..." to unstage)[0K
+[0K
+        [0;32mnew file:   .Rproj.user/5148335D/console06/6D0AA45B[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/console06/INDEX001[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/prop/94604131[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/prop/98C46BF[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/prop/DE8781A9[0m[0K
+        [0;32mnew file:   .Rproj.user/5148335D/sources/prop/INDEX[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000a.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000b.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000b.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000c.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000d.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000d.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000e.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000f.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/00000f.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/000010.csv[0m[0K[9G[?25h[?25l
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/000011.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/000011.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c1zg8eg0fp1bn/000012.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c5f6ibvuxgimg/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c5f6ibvuxgimg/000003.error[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c7s42sk63w3iw/000002.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c7s42sk63w3iw/000002.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000003.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000003.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000004.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000005.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000005.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000006.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000007.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000007.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000008.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000009.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/000009.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/c9ge285c7ihz1/00000a.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cec2nuqk8coan/00000a.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/chag4u4k4k06z/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/chunks.json[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/coy38cjq7f12q/000004.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/csetup_chunk/000002.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/00000f.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000010.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000010.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000011.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000012.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000012.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000013.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000014.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000014.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000015.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000016.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000016.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/cugdscab7903t/000017.csv[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/czr3nxi4650et/000002.metadata[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/76625906-index/1/s/czr3nxi4650et/000002.rdf[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/patch-chunk-names[0m[0K
+        [0;32mnew file:   .Rproj.user/shared/notebooks/paths[0m[0K
+        [0;32mnew file:   .gitignore[0m[0K
+        [0;32mnew file:   index.Rmd[0m[0K
+        [0;32mnew file:   index.bn.html[0m[0K[?25h]0; [?25l
+        [0;32mnew file:   index.html[0m[0K
+        [0;32mnew file:   saiku-export.csv[0m[0K
+        [0;32mnew file:   script_6_.R[0m[0K
+[0K
+Changes not staged for commit:[0K
+  (use "git add <file>..." to update what will be committed)[0K
+  (use "git checkout -- <file>..." to discard changes in working directory)[0K
+[0K
+        [0;31mmodified:   .Rproj.user/5148335D/console06/6D0AA45B[0m[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31mpresentacion_6.Rproj[0m[0K
+[0K
+[0K
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hg[0Ki[0Kt[0K[61G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git c[0K[?25ho[0K[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git c[0K[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git[0K[61G[?25h[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git p[0K[?25hu[0Kl[0Kl[0K]0;  - git  pull[?25l
+[0K[?25hremote: Enumerating objects: 6, done.[0K[?25l
+remote: Counting objects: 100% (6/6), done.[0K
+remote: Compressing objects: 100% (3/3), done.[0K
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0[0K
+[0K[?25h[?25lUnpacking objects:  16% (1/6)[0K[1G[?25h[?25lUnpacking objects:  33% (2/6)[0K[1G[?25h[?25lUnpacking objects:  50% (3/6)[0K[1G[?25h[?25lUnpacking objects:  66% (4/6)[0K[1G[?25h[?25lUnpacking objects:  83% (5/6)[0K[1G[?25hUnpacking objects: 100% (6/6), done.[0K[?25l
+[0K[?25hFrom https://github.com/alexvbr22082018/R_tools_with_R_class_6[0K[?25l
+ * [new branch]      master     -> origin/master[0K
+[0K[?25h]0; There is no tracking information for the current branch.[0K[?25l
+Please specify which branch you want to merge with.[0K
+See git-pull(1) for details.[0K
+[0K
+    git pull <remote> <branch>[0K
+[0K
+If you wish to set tracking information for this branch you can do so with:[0K
+[0K
+    git branch --set-upstream-to=origin/<branch> master[0K
+[0K
+[0K
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hgit pull origin master --allow-unrelated-histories[0K]0;  - git  pull origin master --allow-unrelated-histories[?25l
+[0K[?25hFrom https://github.com/alexvbr22082018/R_tools_with_R_class_6[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+[0K[?25h]0; [?25l
+C:\Users\Equipo\Documents\course_R_tools\presentacion_6>[0K[?25hg[0Ki[0Kt[0K[61G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git a[0K[?25hd[0Kd[0K[65G[?25lC:\Users\Equipo\Documents\course_R_tools\presentacion_6>git add .[0K[?25h]0;  - git  add .[?25l
+[0K[?25h

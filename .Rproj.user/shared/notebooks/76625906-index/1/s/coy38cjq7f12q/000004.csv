@@ -1,0 +1,18 @@
+"0","tabla <- read_csv(""saiku-export.csv"")
+"
+"2","Parsed with column specification:
+cols(
+  FAMILIA = [31mcol_character()[39m,
+  PROVINCIA = [31mcol_character()[39m,
+  `TIPO CONTRIBUYENTE` = [31mcol_character()[39m,
+  `PERTENECE GRUPO ECONOMICO` = [31mcol_character()[39m,
+  `GRAN CONTRIBUYENTE` = [31mcol_character()[39m,
+  `CLASE CONTRIBUYENTE` = [31mcol_character()[39m,
+  `ANIO FISCAL` = [32mcol_double()[39m,
+  `MES FISCAL` = [32mcol_double()[39m,
+  `ESTADO CONTRIBUYENTE` = [31mcol_character()[39m,
+  `TOTAL COMPRAS LOCALES E IMPORTAC (519)` = [32mcol_double()[39m,
+  `TOTAL VENTAS Y EXPORTACIONES (419)` = [32mcol_double()[39m,
+  `IMPUESTO CAUSADO (601)` = [32mcol_double()[39m
+)
+"

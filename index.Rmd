@@ -1,0 +1,254 @@
+---
+title: "Curso Herramientas de análisis con R"
+subtitle: "Clase 6: Un breve reporte"
+author: "Alex Bajaña"
+date: "12/11/2019"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 5
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Revisión
+
+> En esta clase vamos a ver la utilidad de las funciones `mutate`, `group_by` y `summarise` en colaboración con el resto de funciones aprendidas en la clase:
+
+## mutate()
+
+```{r, eval= FALSE}
+
+.data %>% 
+  mutate(...)
+```
+<font color = '#d7215b'>.data </font> es un data frame o tibble
+<font color = '#d7215b'>... </font> asignaciones de varibales 
+
+### Ejemplo:
+
+```{r, eval=FALSE}
+
+tabla %>% 
+  mutate(pseudo_u = ventas_t - compras_t)
+
+# Creo una variable que se llama "pseudo_u" que es función de compras y ventas
+# dentro de mutate se crea un environment donde los objetos son las columnas de
+# la tabla
+
+```
+
+## group_by() %>% summarise()
+
+> `group by` crea grupos de acuerdo a una o más variables categoricas, en el caso de variables continuas se pueden crear factores con intervalos.
+
+```{r, eval = FALSE}
+agrupada <- .data %>% 
+  group_by(...) 
+```
+
+Mientras `summarise` toma una tabla agrupada y aplica una función de resumen.
+
+```{r, eval = FALSE}
+agrupada %>% 
+  summarise( n = n())
+
+# Devuelve una tibble o dataframe con: las columnas de agrupación y una nueva variable "n" que contiene el conteo de observaciones por grupo, si quiero contar los casos unicos de otra variables
+
+agrupada %>% 
+  summarise( n = n_distinct(variable))
+
+# Sobre una variable númerica se puede pasar cualquier función como mínimo y maximo
+```
+
+### Ejemplo:
+
+</p>
+
+# Preambulo
+
+Se inicia con la apertura del archivos 
+
+```{r load}
+
+library(tidyverse)
+# library(knitr)
+
+# La versión de readr nos muestra que coerción hizo sobre los datos:
+
+tabla <- read_csv("saiku-export.csv")
+
+# Además guarda los nombres tal como aparecen en la base de datos
+```
+
+Recordando los principios de la tidy data debemos corregir los nombres de las variables. Sin embargo en toda transformación de datos se debe procurar mantener tambien el principio de reproducibilidad. Es por ello que siempre debemos mantener un registro de nuestas transformaciones en orden de que si alguien desea replicar la transformación de datos va a obtener el mismo resultado.
+
+```{r}
+
+# Guardo los nombres originales de la tabla
+
+originales <- names(tabla)
+
+# Creo un vector con nuevos nomrbes:
+
+nuevos <- c("activ","provin","tipo_c","grupo_e",
+                  "gran_c","clase","anio","mes","estado",
+                  "compras_t","ventas_t","impuesto_c")
+
+# Genero una equivalencia que me servira de guía
+
+names(tabla) <- nuevos
+
+tibble(`Nombres originales` = originales,
+       `Nuevos nombres` = nuevos) %>% 
+  mutate(`Nombres originales` = str_to_sentence(`Nombres originales`))
+```
+
+Ahora vamos a realizar algunas transformaciones para llegar a un set de datos con el que realziar nuestro análisis:
+
+```{r}
+
+tabla <- tabla %>% 
+  mutate(fecha = str_c(anio,"-",mes,"-01"),  # Pego las variables anio, mes 
+         fecha = as.Date(fecha))             # Transformo a fecha
+
+```
+
+# Resolución
+
+Utilizando como referencia el archivo "clase_4_sri.R" y lo visto en clases responder a las siguientes preguntas:
+
+
+1. Genero una variable que se llame región natural
+
+<font color = '#d7215b'>Hint:</font> Utilizar la función `which` para encontrar las posiciones de las provincias que pertenecen a cada región.
+
+Empleando **R-base:**
+
+```{r}
+provincias <- unique(tabla$provin)
+
+sierra <- provincias[c(1,2,3,6,10,14,15,16,17,20)]
+costa <- provincias[c(4,5,7,8,11,12,18)]
+oriente <- provincias[c(9,13,21,22,23,24)]
+insular <- provincias[19]
+
+tabla$region <- NA_character_
+
+tabla$region[which(tabla$provin %in% sierra)] <- "Sierra"
+tabla$region[which(tabla$provin %in% costa)] <- "Costa"
+tabla$region[which(tabla$provin %in% oriente)] <- "Oriente"
+tabla$region[which(tabla$provin %in% insular)] <- "Insular"
+
+table(tabla$region)
+```
+
+Empleando **dplyr:**
+
+```{r}
+tabla <- tabla %>% 
+  mutate(region_2 = case_when(provin %in% sierra ~ "Sierra",
+                              provin %in% costa ~ "Costa",
+                              provin %in% oriente ~ "Oriente",
+                              TRUE               ~ "Insular"
+                              ) )
+
+table(tabla$region_2,useNA = "ifany")
+```
+ 
+2. Agrego las compras por fecha y región natural
+
+<font color = '#d7215b'>Hint:</font>  Utilizar la función `aggregate` para encontrar las sumas agrupadas por fecha y region natural.
+
+Empleando **R-base:**
+
+```{r}
+
+resumen_1 <- aggregate(formula = compras_t ~ fecha + region,
+          data = tabla,
+          FUN = function(x) sum(x)/10e6)
+
+resumen_1
+
+```
+
+Empleando **dplyr:**
+
+```{r}
+
+resumen_2 <- tabla %>% 
+  group_by(fecha,region_2) %>% 
+  summarise(suma_compras = sum(compras_t)/10e6)
+
+resumen_2
+```
+
+3. ¿Durante que mes entre marzo y mayo de 2016 tuvieron las compras más bajas las distintas regiones?  
+   
+<font color = '#d7215b'>Hint:</font> Filtro la tabla para las fechas señaladas, empleo la función `split` para guardar en una lista la información de cada una de las regiones. Con `lapply` y la función `which.min` hallo la región que presenta el minimo  
+
+Empleando **R-base:**
+```{r}
+
+fechas <- as.Date(c("2016-03-01","2016-04-01","2016-05-01"))
+
+ind_1 <- which(resumen_1$fecha %in% fechas)
+
+resumen_1 <- resumen_1[ind_1,]
+
+
+lista_1 <- split(resumen_1, resumen_1$region)
+
+lapply(lista_1, function(x){
+  y <- which.min(x$compras_t)
+  x[y,]
+})
+```
+
+Empleando **dplyr:**
+
+```{r}
+
+lista_2 <- resumen_2 %>% 
+  filter(between(fecha,as.Date("2016-03-01"),
+                       as.Date("2016-05-01"))) %>% 
+  split(.$region_2)
+
+# El minimo solo se puede sacar de un
+lapply(lista_2,function(x){
+  x %>% 
+    group_by(region_2) %>% 
+    filter(suma_compras == min(suma_compras))
+})
+
+```
+
+# Todo el proceso en una sola secuencia:
+
+```{r}
+
+read_csv("saiku-export.csv") %>% 
+  rename_all(function(x)nuevos) %>% 
+  mutate(fecha = str_c(anio,"-",mes,"-01"), 
+         fecha = as.Date(fecha),
+         region_2 = case_when(provin %in% sierra ~ "Sierra",
+                              provin %in% costa ~ "Costa",
+                              provin %in% oriente ~ "Oriente",
+                              TRUE               ~ "Insular"  
+         )) %>% 
+  group_by(fecha,region_2) %>% 
+  summarise(suma_compras = sum(compras_t)/10e6) %>% 
+  ungroup %>% 
+  filter(between(fecha,as.Date("2016-03-01"),
+                 as.Date("2016-05-01"))) %>% 
+  split(.$region_2) %>% 
+  map(~.x %>% 
+        group_by(region_2) %>% 
+        filter(suma_compras == min(suma_compras)))
+
+```
+
