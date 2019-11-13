@@ -2,7 +2,7 @@
 title: "Curso Herramientas de análisis con R"
 subtitle: "Clase 6: Un breve reporte"
 author: "Alex Bajaña"
-date: "12/11/2019"
+date: "2019/11 (Actualizado: `r Sys.Date()`)"
 output: 
   html_document:
     toc: true
@@ -189,7 +189,7 @@ resumen_2
 
 3. ¿Durante que mes entre marzo y mayo de 2016 tuvieron las compras más bajas las distintas regiones?  
    
-<font color = '#d7215b'>Hint:</font> Filtro la tabla para las fechas señaladas, empleo la función `split` para guardar en una lista la información de cada una de las regiones. Con `lapply` y la función `which.min` hallo la región que presenta el minimo  
+<font color = '#d7215b'>Hint:</font> Filtro la tabla para las fechas señaladas, empleo la función `split` para guardar en una lista la información de cada una de las regiones. Con `lapply` y la función `which.min` hallo la el mes en que se presenta el minimo  
 
 Empleando **R-base:**
 ```{r}

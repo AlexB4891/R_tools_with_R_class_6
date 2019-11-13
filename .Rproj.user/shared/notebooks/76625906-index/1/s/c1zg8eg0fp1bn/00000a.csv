@@ -1,9 +1,0 @@
-"0","# El minimo solo se puede sacar de un
-lapply(lista_2,function(x){
-  x %>% 
-    group_by(region_2) %>% 
-    filter(suma_compras == min(suma_compras))
-})
-"
-"1","$Costa
-"

@@ -1,7 +1,0 @@
-"0","tabla <- tabla %>% 
-  mutate(fecha = str_c(anio,""-"",mes,""-01""),  # Pego las variables anio, mes 
-         fecha = as.Date(fecha))             # Transformo a fecha
-"
-"2","Error in stri_c(..., sep = sep, collapse = collapse, ignore_null = TRUE) : 
-  object 'anio' not found
-"

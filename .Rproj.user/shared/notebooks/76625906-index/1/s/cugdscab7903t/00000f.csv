@@ -1,7 +1,0 @@
-"0","lapply(lista_1, function(x){
-  y <- which.min(x$compras_t)
-  x[y,]
-})
-"
-"1","$Costa
-"
