@@ -14,4 +14,3 @@ No dudes en dejar tu comentario o sugerencia.
 
 - La presentación se realiza a partir del archivo index.Rmd
 - El archivo **saiku-export.csv** contiene la consulta realizada en el sistema SAIKU del SRI y que se muestra en la presentación
-git commit -m "Se corrige el README"
